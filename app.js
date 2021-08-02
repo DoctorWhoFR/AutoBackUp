@@ -56,9 +56,9 @@ function uploadAtEndSftp(zipName){
 	term.blue("starting sftp upload \n\n")
 
 	sftp.connect({
-	  host: '51.158.154.12',
-	  username: 'azgin',
-	  password: 'Emf12345!'
+	  host: '',
+	  username: '',
+	  password: '!'
 	}).then(() => {
 		
 		
