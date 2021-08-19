@@ -12,7 +12,7 @@ let Client = require('ssh2-sftp-client');
 
 const backup_mod = "sftp"; // sftp = for sftp upload / dropbox = for dropbox upload (need token)
 
-const _webhook = "https://discord.com/api/webhooks/871686819803172865/PgoD8kkBgZTqT_HTVarxW8V5b-SMXVKBAiHvYFK-u72rD-wUtXTOY3O9UYuWdUdTyo3C";
+const _webhook = "";
 const Hook = new webhook.Webhook(_webhook)
 
 const _token = "";
